@@ -10,3 +10,10 @@ h2{
     font-weight: 400;
     font-size: 2rem;
 }
+
+p{
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1rem;
+}
