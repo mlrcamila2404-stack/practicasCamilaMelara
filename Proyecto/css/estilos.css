@@ -1,8 +1,12 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet');
+
 body {
 background-image: url(../img/download.jpg);
 background-size: 200px;
 background-repeat: repeat;
 padding: 15px;
+color: white;
 }
 
 header {
@@ -63,7 +67,22 @@ color: white;
 }
 * {
 margin: 0;
-padding: 0;
+padding: 10;
 box-sizing: border-box;
 }
 
+table, th, td {
+            border: 1px solid white;
+            border-collapse: collapse;
+            color: white;
+            background-color: rgba(99, 94, 94, 0.192);
+        }
+
+.capacidades {
+    color: white;
+    list-style-type: disc;
+}
+
+.formulario {
+    color: white;
+}
