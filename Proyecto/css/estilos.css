@@ -71,13 +71,19 @@ padding: 10;
 box-sizing: border-box;
 }
 
-table, th, td {
+table, td {
             border: 1px solid white;
             border-collapse: collapse;
             color: white;
             background-color: rgba(99, 94, 94, 0.192);
-        }
+}
 
+.categoria{ 
+            border: 1px solid white;
+            border-collapse: collapse;
+            color: white;
+            background-color: rgba(201, 45, 45, 0.459);
+}
 .capacidades {
     color: white;
     list-style-type: disc;
@@ -85,4 +91,13 @@ table, th, td {
 
 .formulario {
     color: white;
+    
+}
+
+.footer {
+    background-color: #701705b7;
+}
+
+.galeria {
+
 }
