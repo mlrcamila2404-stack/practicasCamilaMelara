@@ -1,5 +1,9 @@
 @import 
 url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet');
+@import 
+url('https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet');
+@import 
+url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet');
 
 body {
 background-image: url(../img/download.jpg);
@@ -7,12 +11,14 @@ background-size: 200px;
 background-repeat: repeat;
 padding: 15px;
 color: white;
+box-sizing: border-box;
 }
 
 header {
 background-color: #701705b7;
+border-radius: 20px;
 color: white;
-padding: 40px;
+padding: 35px;
 position: sticky;
 top: 0;
 display: flex;
@@ -45,6 +51,14 @@ justify-content: center;
 list-style: none;
 gap: 20px;
 font-size: 1.2rem;
+}
+
+#titulo {
+    font-family: "Creepster", serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 40px;
+    color: white;
 }
 
 .subtitulo {
@@ -86,6 +100,8 @@ table, td, th {
             border-collapse: collapse;
             color: white;
             background-color: rgba(99, 94, 94, 0.192);
+            text-align: center;
+            padding: 5px;
 }
 
 .categoria{ 
@@ -106,6 +122,10 @@ table, td, th {
 
 .footer {
     background-color: #701705b7;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
 }
 
 #dirección {
@@ -122,4 +142,77 @@ margin: 5px;
 margin: 35px 10px;
 float: left;
 box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#historia {
+    width: 1300px;
+    margin: 50px auto;
+    background-color: #70170592;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#información {
+    width: 1300px;
+    margin: 50px auto;
+    background-color: #70170592;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#ficha {
+    width: 1300px;
+    margin: 50px auto;
+    background-color: #70170592;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#imgficha {
+    width: 150px;
+    height: 250px;
+    align-content: center;
+    align-items: center;
+}
+
+#fans {
+    width: 1300px;
+    margin: 50px auto;
+    background-color: #70170592;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#galería {
+    width: 1300px;
+    margin: 50px auto;
+    background-color: #70170592;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 5px;
+}
+
+.columna {
+flex: 25%;
+max-width: 25%;
+padding: 0 6px;
+} 
+
+.column img {
+margin-top: 8px;
+vertical-align: middle;
 }
